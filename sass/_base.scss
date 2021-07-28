@@ -7,9 +7,28 @@ $color-secondary: #1a1d1c;
 
 $color-gray-light-1: #cabebe;
 $color-gray-light-2: #aaa;
-$color-gray-dark: #585656;
+$color-gray-dark: #554d33;
 
 // FONT VARIABLES
 
 $font-primary: "Nunito", sans-serif;
 $font-display: "Josefin Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-gray-dark;
+  font-weight: 300;
+}
